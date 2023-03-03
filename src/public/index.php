@@ -1,5 +1,5 @@
 <?php
-$title = $message = 'Minimal PHP & Nginx Docker Starter';
+$title = 'Minimal PHP & Nginx Docker Starter';
 $technologies = [
     [
         'name' => 'PHP',
@@ -97,7 +97,7 @@ a:hover {
 </style>
 
 <body>
-<h1><?= $message ?></h1>
+<h1><?= $title; ?></h1>
 <main>
         <ul>
     <?php foreach($technologies as $item): ?>
